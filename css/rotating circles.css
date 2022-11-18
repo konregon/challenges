@@ -23,7 +23,8 @@ body{
   .ele5,
   .ele6,
   .ele7,
-  .ele8 {
+  .ele8,
+  .ele9 {
     position: absolute;
     width: 400%;
     height: 400%;
@@ -120,6 +121,17 @@ body{
     position: absolute;
     bottom: -12%;
     right: 35%;
+}
+  .ele9::before{
+    content: '';
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -12%;
+    right: 35%;
+    opacity: 0;
 }
 
 .ele-2nd-1,
